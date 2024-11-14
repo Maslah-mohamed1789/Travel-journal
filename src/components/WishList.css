@@ -1,0 +1,123 @@
+.WishList-container {
+  width: 90%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.entries-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 20px; /* Space between entries */
+  margin-top: 20px;
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+/* Adjust the entry size */
+.entry {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 350px; /* Increased width to 350px */
+  height: auto; /* Make sure the height adjusts based on content */
+  margin: 0 auto; /* Center the entry */
+}
+
+/* Ensure the image fits inside each container */
+.entry img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Button container for alignment */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Button styling */
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 48%;
+}
+
+/* Move button styling */
+.move-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.move-btn:hover {
+  background-color: #45a049;
+}
+
+/* Delete button styling */
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #e53935;
+}
+
+/* Update button styling */
+.update-btn {
+  background-color: #ff9800;
+  color: white;
+}
+
+.update-btn:hover {
+  background-color: #fb8c00;
+}
+
+/* Add new entry form container */
+.add-entry-form {
+  width: 60%; /* Width of the input form */
+  margin: 0 auto; /* Center the form */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-entry-form input,
+.add-entry-form textarea {
+  width: 100%;
+  padding: 8px; /* Keep padding reasonable */
+  font-size: 14px; /* Regular font size */
+  margin: 6px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button in the add-entry-form */
+.add-entry-form button {
+  width: 100%;
+  padding: 8px 10px; /* Appropriate padding */
+  background-color: #4caf50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-entry-form button:hover {
+  background-color: #45a049;
+}
