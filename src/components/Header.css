@@ -1,0 +1,10 @@
+header {
+    text-align: center;
+    background-color: #2e2e2e; /* Grey background */
+    padding: 25px 20px; /* Adjusted padding for more vertical space */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(117, 15, 212, 0.2); /* Subtle purple shadow for depth */
+    font-size: 1.5rem; /* Increased font size for emphasis */
+    color: #b6b3c5; /* Purple text color for contrast */
+  }
+  
